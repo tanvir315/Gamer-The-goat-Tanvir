@@ -12,7 +12,7 @@ body {
 }
 
 main {
-    width: 1440px;
+    
     margin: 0 auto;
 
 }
@@ -118,16 +118,17 @@ main {
 
 /* header style start here */
 .header-container {
-    
+    background-image: url(./images/Group14.png);
+    background-repeat: no-repeat;
     display: flex;
-    gap: 24px;
-    
+    gap: 28px;
+    align-items: center;
     
 }
 
 .header-item {
-    padding: 148px 0px 148px 0px;
-    width: 75%;
+    padding: 148px 0px 148px 32px;
+    width: 65%;
     
 }
 
@@ -135,12 +136,13 @@ main {
 
 }
 
-.header-item {
+.header-item2 {
     color: #0B0223;
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0px;
+    padding-left: 15px;
 
 
 }
@@ -205,10 +207,14 @@ main {
 /* banner iteam start here */
 .banner-container{
     display: flex;
-    margin: 100px 0px 100px 0px;
-    align-items: center;
+    padding: ;: 100px 0px 100px 0px;
+    align-items: :right;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
+}
+
+.banner-img{
+    padding-left: 200px;
 }
 
 .h3-ban{
